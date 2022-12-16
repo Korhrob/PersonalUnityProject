@@ -20,3 +20,5 @@ A lot of the scripts and vfx were quickly put together for a prove of concept an
 <br/>Procedural hair texturing<br/>
 ![Image](https://github.com/Korhrob/PersonalUnityProject/blob/main/Images/proceduralhair.png?raw=true)
 ![Image](https://github.com/Korhrob/PersonalUnityProject/blob/main/Images/hairshader.png?raw=true)
+<br/>Can be baked into a single texture<br/>
+[[Image](https://github.com/Korhrob/PersonalUnityProject/blob/main/Images/HairTexture%20(1).png?raw=true)
