@@ -10,7 +10,7 @@ A lot of the scripts and vfx were quickly put together for a prove of concept an
 ![Image](https://github.com/Korhrob/PersonalUnityProject/blob/main/Images/chests.gif?raw=true)
 ![Image](https://github.com/Korhrob/PersonalUnityProject/blob/main/Images/fire.gif?raw=true)
 
-<br/>Skill effect concepts<br/>
+<br/>Skill effect concepts (+ GPU instanced grass)<br/>
 ![Image](https://github.com/Korhrob/PersonalUnityProject/blob/main/Images/whirlwind.gif?raw=true)
 ![Image](https://github.com/Korhrob/PersonalUnityProject/blob/main/Images/skillSwiftSlash.gif?raw=true)
 
