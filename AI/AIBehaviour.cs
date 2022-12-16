@@ -12,7 +12,7 @@ namespace SimpleAI {
     public enum AIBehaviourType {
         idle,
         moveToRandomPosition,
-        moveToPosition, // Includes path to and path away from
+        moveToPosition,
         moveToTarget,
         attackTarget,
         moveAwayFromTarget
@@ -29,7 +29,7 @@ namespace SimpleAI {
         // index of specific attack,
         // skill to cast
         // condition (ex. <50% hp)
-        // skip next action, or reset behaviour rotuine etc.
+        // skip next action, or reset behaviour routine etc.
 
     }
 
