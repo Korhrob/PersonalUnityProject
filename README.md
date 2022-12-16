@@ -16,3 +16,7 @@ A lot of the scripts were quickly put together for a prove of concept and should
 
 <br/>Depth and normals based outlines<br/>
 ![Image](https://github.com/Korhrob/PersonalUnityProject/blob/main/Images/outlinesmaterial.png?raw=true)
+
+<br/>Procedural hair texturing<br/>
+![Image](https://github.com/Korhrob/PersonalUnityProject/blob/main/Images/proceduralhair.png?raw=true)
+![Image](https://github.com/Korhrob/PersonalUnityProject/blob/main/Images/hairshader.png?raw=true)
