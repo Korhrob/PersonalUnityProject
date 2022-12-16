@@ -7,19 +7,15 @@ using SimpleAI;
 public class MonsterBehaviour : MonoBehaviour
 {
 
-    private MonsterCharacter c;
+    private MonsterCharacter c; // Reference to a Character script
     
-    private List<Node> storedPath; // Minor optimization: store vector3 path instead(?)
+    private List<Node> storedPath; // Uses A* pathfinding that can be generated in editor or during runtime
     private Node lastNode;
     private Coroutine curPathfind, prevBehaviour;
-    public Character Target;
-
-    // DEBUG
     private Vector3 targetPos = Vector3.zero;
     private Vector3 lastPosition;
     private float pathfindStartTime;
     private int stuckCounter;
-
     private int curBehaviourIndex;
 
     private enum PathfindCondition {
@@ -27,6 +23,9 @@ public class MonsterBehaviour : MonoBehaviour
     }
     private List<PathfindCondition> pathfindConditions = new List<PathfindCondition>();
     private float behaviourRange = 1f;
+
+
+    public Character Target;
 
     private void Awake() {
 
@@ -44,7 +43,7 @@ public class MonsterBehaviour : MonoBehaviour
 
     private bool TryGetNearestTarget(out Character nearestTarget) { // Add: optional conditions: frieldy target, can be self
 
-        // Currently just gets first target in overlap sphere, Add:  distance check
+        // Currently just gets first target in overlap sphere, TO-DO: distance check
 
         nearestTarget = null;
         Collider[] collisions = Physics.OverlapSphere(transform.position, 5f, StaticData.CHARACTER_LAYER);
@@ -114,7 +113,7 @@ public class MonsterBehaviour : MonoBehaviour
 
             if (Target == null) { // In combat but no target
 
-                if (TryGetNearestTarget(out Target)) { // Can get nearby target
+                if (TryGetNearestTarget(out Target)) { // Has a nearby target
 
                     curBehaviours = c.monsterData.combatBehaviourRoutine;
 
@@ -184,7 +183,7 @@ public class MonsterBehaviour : MonoBehaviour
             yield return new WaitForSeconds(waitTime);
         else {
 
-            // Agressive AI should try to look for targets whileidle
+            // Agressive AI should try to look for targets while idle
 
             float timeElapsed = 0f;
 
@@ -501,6 +500,7 @@ public class MonsterBehaviour : MonoBehaviour
 
             for (int i = 0; i < storedPath.Count -1; i++) {
 
+                // Display current pathfinding waypoint
                 Gizmos.DrawLine(storedPath[i].worldPosition, storedPath[i + 1].worldPosition);
 
             }
