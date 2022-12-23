@@ -21,7 +21,7 @@ Currently learning Networking
 ![Image](https://github.com/Korhrob/PersonalUnityProject/blob/main/Images/outlinesmaterial.png?raw=true)
 
 <br/>Procedural hair texturing<br/>
-![Image](https://github.com/Korhrob/PersonalUnityProject/blob/main/Images/HairTexture%20(1).png?raw=true)
+![Image](https://github.com/Korhrob/PersonalUnityProject/blob/main/Images/HairTexture%20(1).png?raw=true | width=250)
 ![Image](https://github.com/Korhrob/PersonalUnityProject/blob/main/Images/hairshader.png?raw=true)
-<br/>New shader uses object height for highlights<br/>
+<br/>Procedural texture allows me to create new hairstyles fast and easy<br/>
 ![Image](https://github.com/Korhrob/PersonalUnityProject/blob/main/Images/proceduralhair.png?raw=true)
