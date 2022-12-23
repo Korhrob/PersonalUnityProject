@@ -6,7 +6,7 @@ A lot of the scripts and vfx were quickly put together for a prove of concept an
 Currently learning Networking 
 
 ## Some technical art
-<br/>Vfx<br/>
+<br/>3D glow effect & prodcedural fire effect<br/>
 ![Image](https://github.com/Korhrob/PersonalUnityProject/blob/main/Images/chests.gif?raw=true)
 ![Image](https://github.com/Korhrob/PersonalUnityProject/blob/main/Images/fire.gif?raw=true)
 
