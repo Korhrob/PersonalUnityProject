@@ -151,10 +151,10 @@ public class LevelGenerator : MonoBehaviour {
             if (mapTile.tile == null)
                 mapTile.tile = Instantiate(defaultPlatform, WorldPosition(mapTile.pos), Quaternion.Euler(90, 0, 0));
 
-            foreach (MapTile openNeighobur in mapTile.openNeighbours) {
+            foreach (MapTile openNeighbour in mapTile.openNeighbours) {
 
-                if (openNeighobur.tile == null)
-                    openNeighobur.tile = Instantiate(pathBlocker, WorldPosition(openNeighobur.pos), Quaternion.identity);
+                if (openNeighbour.tile == null)
+                    openNeighbour.tile = Instantiate(pathBlocker, WorldPosition(openNeighbour.pos), Quaternion.identity);
 
             }
 
