@@ -5,7 +5,7 @@ using UnityEngine;
 public class LevelGenerator : MonoBehaviour {
 
     public GameObject defaultPlatform, exitPortal, pathBlocker;
-    public int mapSize; // 8 Tiles x 8 Tiles
+    public int mapSize; // (8) 16 Tiles x 16 Tiles
     public int tileSize; // 4 Units
     public int maxTiles;
 
