@@ -14,7 +14,7 @@ Currently learning Networking
 ![Image](https://github.com/Korhrob/PersonalUnityProject/blob/main/Images/whirlwind.gif?raw=true)
 ![Image](https://github.com/Korhrob/PersonalUnityProject/blob/main/Images/skillSwiftSlash.gif?raw=true)
 
-<br/>Current AI script performs well with over 100 agents druing online play <br/>
+<br/>Current AI script performs well with over 100 agents during online play <br/>
 ![Image](https://github.com/Korhrob/PersonalUnityProject/blob/main/Images/ailist.png?raw=true)
 
 <br/>Depth and normals based outlines<br/>
