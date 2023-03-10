@@ -24,5 +24,5 @@ Currently learning Networking
 <img src="https://github.com/Korhrob/PersonalUnityProject/blob/main/Images/HairTexture%20(1).png?raw=true" width="48%"/>
 <img src="https://github.com/Korhrob/PersonalUnityProject/blob/main/Images/proceduralhair.png?raw=true" width=48%/>
 <img src="https://github.com/Korhrob/PersonalUnityProject/blob/main/Images/hairshader.png?raw=true"/>
-<br/>Procedural texture allows me to create new hairstyles fast and easy<br/>
+<br/>Procedural texture allows me to create new hairstyles quick and easy<br/>
 
